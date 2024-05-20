@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Construir') {
             steps {
-                git 'https://github.com/eduardomanzini/Metodologias-geis.git'
+                git branch: 'main', url: 'https://github.com/eduardomanzini/Metodologias-geis.git'
                 sh './gradlew build'
             }
         }

@@ -5,7 +5,7 @@ pipeline {
         stage('Clonar repositório') {
             steps {
                 // Clonar o repositório do GitHub
-                git 'https://github.com/seu-usuario/seu-projeto.git'
+                git 'https://github.com/eduardomanzini/Metodologias-geis.git'
             }
         }
         stage('Construir') {

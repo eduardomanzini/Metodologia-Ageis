@@ -4,6 +4,8 @@ import br.edu.uniara.dp2.malara.model.Employee;
 import br.edu.uniara.dp2.malara.model.EmployeeRepository;
 import lombok.val;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

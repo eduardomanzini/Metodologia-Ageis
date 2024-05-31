@@ -18,10 +18,13 @@ public class Employee {
 
     private String name;
 
+    private Integer idade;
+
     private String role;
 
-    public Employee(String name, String role) {
+    public Employee(String name, Integer idade, String role) {
         this.name = name;
+        this.idade = idade;
         this.role = role;
     }
 }
